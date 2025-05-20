@@ -5,4 +5,4 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
     with:
-      shield:  apollo32
+      shield:apollo32
