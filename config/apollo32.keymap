@@ -23,13 +23,13 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            bindings = <
-&kp ESC      &kp Q    &kp W    &kp E       &kp R &kp T &kp Y &kp U    &kp I     &kp O    &kp P    &kp SEMI  &kp BSPC
-&ht CAPS TAB &kp A    &kp S    &kp D       &kp F &kp G &kp H &kp J    &kp K     &kp L    &kp APOS           &kp RET
-&kp LSHFT    &kp Z    &kp X    &kp C       &kp V &kp B &kp N &kp M    &kp COMMA &kp DOT                     &kp RSHFT
-&kp LCTRL    &kp LGUI &kp LALT &lt 1 SPACE                  &kp SPACE &kp RALT  &kp RGUI &mo 2              &kp RCTRL
-            >;
-        };
+    bindings = <
+        &kp KC_ESC  &kp Q     &kp W     &kp E     &kp R     &kp T     &kp Y     &kp U     &kp I     &kp O     &kp P
+        &kp KC_LSFT &kp A     &kp S     &kp D     &kp F     &kp G     &kp H     &kp J     &kp K     &kp L     &kp KC_BSPC
+        &kp KC_LCTL &kp Z     &kp X     &kp C     &kp V     &kp B     &kp N     &kp M     &kp KC_COMMA &kp KC_DOT &kp KC_ENT
+        >;
+    ;
+
 
         function_layer {
             bindings = <
